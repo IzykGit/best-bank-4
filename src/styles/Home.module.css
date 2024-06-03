@@ -1,0 +1,74 @@
+.spacer {
+    height: 10rem;
+}
+
+.fold {
+    height: 80vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.fold > img {
+    position: absolute;
+    width: initial;
+    height: 80vh;
+    opacity: 0.3;
+}
+
+.fold > h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+
+    font-size: 4rem;
+    margin: 0;
+}
+
+.fold > p {
+    position: relative;
+    z-index: 2;
+    margin: 0.5rem 0rem;
+
+    font-size: 1.5rem;
+    color: white;
+    width: 50rem;
+}
+
+.link {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(94, 181, 216);
+    text-decoration: none;
+
+    border: none;
+    border-radius: 1rem;
+
+    height: 3rem;
+    width: 15rem;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.info_section {
+    height: 60vh;
+}

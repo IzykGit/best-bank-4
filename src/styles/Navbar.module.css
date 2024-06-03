@@ -1,0 +1,48 @@
+.nav_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0rem 3rem;
+    height: 5rem;
+}
+
+.nav_section > a {
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    color: black;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.nav_section > a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.navbar {
+    width: 30rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.navbar > a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
